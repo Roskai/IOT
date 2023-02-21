@@ -1,4 +1,8 @@
-# jakarta-rest-api
+# jakarta-rest-api – IOT et Serveurs – Projet
+
+
+Sujet : éclairage intelligent dans un quartier ou dans une ville 😀
+-
 
 ## Requirements
 [Docker](https://www.docker.com/)
@@ -19,6 +23,9 @@ sh deploy
 ```
 
 The service is deployed at http://localhost:8085/api-rest/
+
+## À faire : 
+Transformer la classe Personne et ses dérivée en la classe Lampadaire 
 
 ## Query
 
