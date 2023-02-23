@@ -27,7 +27,7 @@ public class EnvironementCaptor {
 
     
     public void createHour(){
-        while 1 {
+        while (1) {
             for (int i=1; i<=24; i++){
                 this.hour = this.hour+1; 
                 sleep(10000);
@@ -37,7 +37,7 @@ public class EnvironementCaptor {
     }
 
     public void createBrightness(){
-        while 1 {
+        while (1) {
             if (this.hour >= 7 && this.hour <= 20){
                 this.brightness = 100 ;
             }else if(this.hour > 20 && this.hour < 7){
