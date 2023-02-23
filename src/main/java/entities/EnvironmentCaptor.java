@@ -4,14 +4,13 @@ import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import javax.inject.Singleton;
-import java.time.LocalTime;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 
 @Singleton
-public class Environement {
+public class EnvironementCaptor {
     private static Environement INSTANCE;
     
     private int hour = 0; 
