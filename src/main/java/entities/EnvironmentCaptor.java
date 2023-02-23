@@ -19,7 +19,7 @@ public class EnvironementCaptor {
     
     public static Environement getInstance() {
         if(INSTANCE == null) {
-            INSTANCE = new Environement();
+            INSTANCE = new EnvironmentCaptor();
         }
 
         return INSTANCE;
@@ -32,7 +32,7 @@ public class EnvironementCaptor {
                 this.hour = this.hour+1; 
                 sleep(10000);
             }
-            hour = 0
+            hour = 0;
         }
     }
 
